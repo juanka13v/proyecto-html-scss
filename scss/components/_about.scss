@@ -1,0 +1,67 @@
+.about_container {
+  background-color: $bg-color-2;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  .about_wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    @media screen and (max-width: $breakpoint-md) {
+        flex-direction: column;
+      }
+    border: solid 1px olive;
+
+    .about_img {
+      flex: 3;
+      padding: 0 0 0 3rem;
+      min-height: 520px;
+      @media screen and (max-width: $breakpoint-md) {
+        min-height: initial;
+        padding: 3rem;
+        padding-bottom: 1rem;
+        img {
+            height: 250px;
+        }
+      }
+      @media screen and (max-width: $breakpoint-mb) {
+        padding: 1.5rem;
+      }
+    }
+
+    .about_content {
+      flex: 7;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      @media screen and (max-width: $breakpoint-mb) {
+        padding: 1.5rem;
+      }
+      
+
+      h3 {
+        font-size: 2.5rem;
+        font-family: $font-sub-title;
+        color: $font-color;
+        margin-bottom: 0.3rem;
+      }
+
+      h4 {
+        font-size: 68px;
+        font-family: $font-title;
+        font-weight: 200;
+        color: $font-color-title;
+        margin-bottom: 0.3rem;
+      }
+
+      p {
+        font-size: 14px;
+        font-family: $font-text;
+        color: $font-color-text;
+      }
+    }
+  }
+}
