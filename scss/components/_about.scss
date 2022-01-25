@@ -1,8 +1,8 @@
 .about_container {
   background-color: $bg-color-2;
   width: 100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   .about_wrapper {
     max-width: $max-width;
@@ -22,7 +22,7 @@
         padding: 3rem;
         padding-bottom: 1rem;
         img {
-            height: 250px;
+            max-height: 250px;
         }
       }
       @media screen and (max-width: $breakpoint-mb) {
