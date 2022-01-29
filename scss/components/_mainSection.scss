@@ -6,12 +6,9 @@
     max-width: $max-width;
     margin: 0 auto;
     display: flex;
-    border: 2px solid salmon;
     @media screen and (max-width: $breakpoint-lg) {
-      border: 2px solid darkblue;
     }
     @media screen and (max-width: $breakpoint-md) {
-      border:  2px solid springgreen;
       flex-direction: column;
     }
 
@@ -73,7 +70,6 @@
         }
 
         .img_item-1 {
-          border: mediumblue 1px solid;
           display: flex;
 
           .img_1 {
@@ -93,7 +89,6 @@
         }
 
         .img_item-2 {
-          border: springgreen 1px solid;
           display: flex;
           gap: 16px;
           .img_2 {

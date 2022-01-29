@@ -42,14 +42,9 @@ img {
   .main_container .main_wrapper {
     max-width: 1140px;
     margin: 0 auto;
-    display: flex;
-    border: 2px solid salmon; }
-    @media screen and (max-width: 992px) {
-      .main_container .main_wrapper {
-        border: 2px solid darkblue; } }
+    display: flex; }
     @media screen and (max-width: 768px) {
       .main_container .main_wrapper {
-        border: 2px solid springgreen;
         flex-direction: column; } }
     .main_container .main_wrapper .main_text {
       padding: 0 0 0 3rem;
@@ -97,7 +92,6 @@ img {
           height: 100%;
           object-fit: cover; }
         .main_container .main_wrapper .main_img .img_items .img_item-1 {
-          border: mediumblue 1px solid;
           display: flex; }
           .main_container .main_wrapper .main_img .img_items .img_item-1 .img_1 {
             flex: 7; }
@@ -111,7 +105,6 @@ img {
                 flex: 0;
                 display: none; } }
         .main_container .main_wrapper .main_img .img_items .img_item-2 {
-          border: springgreen 1px solid;
           display: flex;
           gap: 16px; }
           .main_container .main_wrapper .main_img .img_items .img_item-2 .img_2 {
@@ -127,8 +120,7 @@ img {
   .about_container .about_wrapper {
     max-width: 1140px;
     margin: 0 auto;
-    display: flex;
-    border: solid 1px olive; }
+    display: flex; }
     @media screen and (max-width: 768px) {
       .about_container .about_wrapper {
         flex-direction: column; } }
@@ -177,7 +169,6 @@ img {
   background-color: #332f29;
   padding: 3rem 0; }
   .services_container .services_wrapper {
-    border: darkcyan 1px solid;
     max-width: 1140px;
     margin: 0 auto;
     padding: 3rem; }
@@ -296,7 +287,6 @@ img {
   width: 100%;
   background-color: #ffffff; }
   .products_container .products_wrapper {
-    border: darkblue 1px solid;
     max-width: 1140px;
     margin: 0 auto;
     padding: 3rem;
@@ -327,7 +317,6 @@ img {
       justify-content: center;
       align-items: center; }
       .products_container .products_wrapper .products_imgs .products_gallery {
-        border: 1px olive solid;
         max-width: 800px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -420,7 +409,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
   .contact_container .contact_wrapper {
-    border: solid 1px navy;
     max-width: 1140px;
     padding: 3rem;
     margin: 0 auto;
